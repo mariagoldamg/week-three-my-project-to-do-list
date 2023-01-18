@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.container{
+    display: flex;
+    justify-content: center;
+   }
+
+h1 {
+  margin-top: 100px;
+  font-family: 'Raleway', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ul,li{
+    list-style-type: none;
+    padding: 10px;
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
   }
-}
+  .crossed {
+    text-decoration: line-through 2px green;
+    background-color: #E4C988;
+  
+    -webkit-text-decoration-line: line-through;
+  -webkit-text-decoration-color: green;
+  -webkit-text-decoration-thickness:2px;
+  }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  .add {
+
+    background: #CDE990;
+    margin-top: 5px;
+ 
+  }
+  
+  .delete {
+    background: #C27664;
+    margin-bottom: 5px;
+    
+   
+  }
+  
+  .btn {
+  padding: 10px;
+  border: none;
+  width: 70%;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color:black;
+    font-weight: bold;
   }
-  to {
-    transform: rotate(360deg);
+
+  input {
+    width:200px;
+    padding:8px;
+    margin:10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin:50px;
   }
-}
